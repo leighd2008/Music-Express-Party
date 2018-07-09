@@ -1,0 +1,116 @@
+
+header{
+  height: 140px;
+
+  background: url("../images/banner.jpg") #c814d4;
+  background-position: center top;
+  background-attachment: fixed;
+  padding: 10px;
+
+}
+
+h1{
+  margin: 20px;
+  font-size: 140%;
+  color:#f31b0b;
+  background-color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav {
+  text-align: justify;
+}
+
+nav:after {
+  content: '';
+  width: 100%; /* Ensures justification for single lines */
+  display: inline-block;
+
+}
+
+nav a{
+  margin: 4.75%;
+  padding: 10px 50px;
+  color: #080808;
+  text-decoration: none;
+  background: rgba(243, 224, 5, 0.9);
+  border-radius: 5%;
+}
+
+.active{
+  background: #f31b0b;
+}
+body{
+  padding: 5px;
+  margin: 5px;
+}
+
+h2{
+  color: #080808;
+}
+
+.right{
+  font-size: 125%;
+  display: inline-block;
+  vertical-align: top;
+  width: 73%;
+}
+
+.left{
+  display: inline-block;
+  vertical-align: top;
+  background: #c814d4;
+  width: 25%;
+  height: 100vh;
+}
+
+img{
+  width: 160px;
+  margin: 19% 15% 0%;
+  border: solid black 2px;
+
+}
+
+table {
+	border-spacing: 0;
+	border: 3px solid black;
+	border-radius: 25px 25px 0 0;
+  padding: 5px
+
+}
+
+.right tr:not(:first-child) {
+  background: #add086;
+  opacity: 0.6;
+  text-align: center;
+  padding:4px 10px;
+
+}
+
+.right td:first-child {
+  text-align: left;
+}
+
+
+.right th {
+  background: #579016;
+  border: solid #1e542f 2px;
+  color:#FDFEFE;
+  padding:4px 10px;
+  text-align: center;
+
+}
+
+.right th:first-child {
+  text-align: left;
+  border-radius: 25px 0 0 0;
+}
+
+.right th:last-child {
+  border-radius: 0 25px 0 0;
+}
+
+.right tr:hover{
+	opacity: 1;
+}
